@@ -1,0 +1,18 @@
+{
+  "name": "bbc-playwright-bdd-tests",
+  "version": "1.0.0",
+  "description": "BBC Sport automation tests using Playwright and BDD",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:headed": "cucumber-js --headed",
+    "test:debug": "cucumber-js --debug",
+    "report": "cucumber-js --format html:reports/cucumber-report.html"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.9.0",
+    "@playwright/test": "^1.54.1",
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
